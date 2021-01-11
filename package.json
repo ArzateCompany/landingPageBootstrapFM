@@ -1,0 +1,42 @@
+{
+  "name": "bootstrap-practice",
+  "version": "1.0.0",
+  "description": "this page is created for practice all the knowledge in the bootstrap course of platzi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "webpack --watch --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ArzateCompany/landingPageBootstrapFM.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "javascript",
+    "html",
+    "css",
+    "fetch",
+    "basic",
+    "frontend",
+    "jr"
+  ],
+  "author": "@ArzateCompany",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArzateCompany/landingPageBootstrapFM/issues"
+  },
+  "homepage": "https://github.com/ArzateCompany/landingPageBootstrapFM#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@popperjs/core": "2.6.0",
+    "bootstrap": "5.0.0-beta1",
+    "css-loader": "5.0.1",
+    "node-sass": "5.0.0",
+    "sass-loader": "10.1.1",
+    "style-loader": "2.0.0",
+    "webpack": "5.12.3",
+    "webpack-cli": "4.3.1",
+    "webpack-dev-server": "3.11.1"
+  }
+}
