@@ -1,2 +1,2 @@
-import './style/test.scss';
+import './assets/style/bootstrap.scss';
 
