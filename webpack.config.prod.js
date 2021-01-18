@@ -29,7 +29,7 @@ module.exports = {
   },
   plugins: [
     new HtmlwebpackPlugin({
-      template: PATH.resolve(__dirname, './src/index.html')
+      template: PATH.resolve(__dirname, './public/index.html')
     })
   ],
 };
