@@ -5,11 +5,9 @@ const Title = (props) => {
 
   return (
     <div className="page-title">
-      <div className="container">
-        <div className="row text-uppercase">
-          <div className="col">
-            <h1>{text}</h1>
-          </div>
+      <div className="row text-uppercase">
+        <div className="col">
+          <h1>{text}</h1>
         </div>
       </div>
     </div>
