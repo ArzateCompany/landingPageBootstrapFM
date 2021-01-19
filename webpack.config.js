@@ -33,6 +33,15 @@ module.exports = {
           'css-loader',
           'sass-loader'
         ]
+      },
+      {
+        test: /\.svg|png|jpeg$/,
+        use: {
+          loader: 'url-loader',
+          options: {
+            limit: 9000,
+          }
+        }
       }
     ]
   },

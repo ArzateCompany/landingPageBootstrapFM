@@ -9,13 +9,11 @@ import Title from '../components/Title.jsx';
 const LandingPage = () => {
   return (
     <>
-      <div className="container-xxl">
-        <Header />
-        <Hero />
-        <Title text="our creations" />
-        <Card topLineText='deep' bottomLineText='earth' url="https://i.ibb.co/vLhcS7J/image-night-arcade.jpg" />
-        <Footer />
-      </div>
+      <Header />
+      <Hero />
+      <Title text="our creations" />
+      <Card topLineText='deep' bottomLineText='earth' url="https://i.ibb.co/vLhcS7J/image-night-arcade.jpg" />
+      <Footer />
     </>
   );
 };
