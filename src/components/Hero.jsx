@@ -2,9 +2,9 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section className="hero">
+    <section className="hero py-5">
       <div className="row">
-        <div className="col-lg-5">
+        <div className="col-lg-5 py-5">
           <figure className="hero__image">
             <img src="https://i.ibb.co/ts481Rh/image-interactive.jpg" alt="imagen de hero" />
           </figure>

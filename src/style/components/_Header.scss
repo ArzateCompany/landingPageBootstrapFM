@@ -1,0 +1,11 @@
+.header {
+  min-height: 650px;
+  color: $light;
+  background-image:url('https://i.ibb.co/TYT1v20/image-hero.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  .navbar-collapse .nav-link {
+    color: $light;
+  }
+}
