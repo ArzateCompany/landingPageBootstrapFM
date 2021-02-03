@@ -8,46 +8,48 @@ const Footer = () => {
   return (
     <>
       <footer class="footer">
-        <div className="container-xxl">
-          <div className="footer__social">
-            <div className="row">
-              <div className="col">
-                <h1>loopstudios</h1>
+        <div className="footer__social py-4">
+          <div className="container">
+            <div className="row py-3">
+              <div className="col align-self-center">
+                <p className="mb-0 fs-3">loopstudios</p>
               </div>
               <div className="col">
-                <ul>
-                  <li><a href="#"><img src={iconFacebook} /></a></li>
-                  <li><a href="#"><img src={iconInstagram} /></a></li>
-                  <li><a href="#"><img src={iconPinterest} /></a></li>
-                  <li><a href="#"><img src={iconTwitter} /></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div className="footer__nav">
-            <div className="row">
-              <div className="col">
-                <ul>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Careers</a></li>
-                  <li><a href="#">Events</a></li>
-                  <li><a href="#">Products</a></li>
-                  <li><a href="#">Support</a></li>
-                </ul>
-              </div>
-              <div className="col">
-                <p>© 2021 Loopstudios. All rights reserved.</p>
+                <nav className="navbar navbar-light justify-content-end align-items-center py-0">
+                  <ul className="navbar-nav flex-row">
+                    <li className="nav-item mx-2"><a className="nav-link" href="#"><img className="w-100" src={iconFacebook} /></a></li>
+                    <li className="nav-item mx-2"><a className="nav-link" href="#"><img className="w-100" src={iconInstagram} /></a></li>
+                    <li className="nav-item mx-2"><a className="nav-link" href="#"><img className="w-100" src={iconPinterest} /></a></li>
+                    <li className="nav-item mx-2"><a className="nav-link" href="#"><img className="w-100" src={iconTwitter} /></a></li>
+                  </ul>
+                </nav>
               </div>
             </div>
-          </div>
-          <div className="attribution">
+            <div className="row">
+              <div className="col">
+                <div className="footer__nav">
+                  <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Support</a></li>
+                  </ul>
+                </div>
+                <div className="col">
+                  <p>© 2021 Loopstudios. All rights reserved.</p>
+                </div>
+              </div>
+            </div>
+            <div className="attribution">
 
-          </div>
-          <div className="row text-center">
-            <p>
-              Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+            </div>
+            <div className="row text-center">
+              <p>
+                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
               Coded by <a href="">Osvaldo Arzate @ArzateCompany</a>.
             </p>
+            </div>
           </div>
         </div>
       </footer>
