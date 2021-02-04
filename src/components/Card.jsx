@@ -2,7 +2,7 @@ import React from 'react';
 
 const Card = ({ text, url }) => {
   return (
-    <div className="card-body position-relative d-inline-block">
+    <div className="card-body position-relative d-inline-block p-sm-0 mb-sm-3">
       <img src={url} alt="card-image" />
       <h3 className="text-uppercase position-absolute bottom-0 p-3 text-light w-25">{text}</h3>
     </div>

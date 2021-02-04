@@ -1,0 +1,23 @@
+  .hero .container {
+    position: relative;
+  }
+
+  .hero .container .information__text {
+    position: absolute;
+    width: 60%;
+  }
+
+@media screen and (max-width: 768px){
+  .information__image img {
+    width: 100%;
+  }
+
+  .hero .container {
+    position: static;
+  }
+
+  .hero .container .information__text {
+    position: static;
+    width: 100%;
+  }
+}
