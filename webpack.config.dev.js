@@ -8,10 +8,6 @@ module.exports = {
     path: PATH.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
   },
-  devServer: {
-    open: true,
-    hot: true,
-  },
   module: {
     rules: [
       {
